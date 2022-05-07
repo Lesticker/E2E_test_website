@@ -5,6 +5,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__),"..","."))
 import time
 from Pages.Homepage import HomePage
 from Pages.Productpageapple import ProductPageApple
